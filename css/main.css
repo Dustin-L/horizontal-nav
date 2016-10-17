@@ -1,0 +1,43 @@
+html {
+  text-decoration-color: #fff;
+  background-color: #dbd6cf;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
+  list-style-type: none;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: 'Bevan', cursive;
+  margin: 0.3em;
+  padding: 0.6em;
+  list-style-type: none;
+  text-align: center;
+}
+
+span {
+  display: inline;
+}
+
+nav {
+  display: inline;
+  margin: 0.3em;
+  padding: 0.6em;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav a {
+  display: inline;
+  border-radius: 4px;
+}
+
+body {
+  background-color: #79756f;
+  font-weight: normal;
+  margin: 0;
+}

@@ -1,5 +1,4 @@
 html {
-  text-decoration-color: #fff;
   background-color: #dbd6cf;
   box-sizing: border-box;
   font-family: sans-serif;
@@ -13,27 +12,30 @@ html {
 
 h1 {
   font-family: 'Bevan', cursive;
-  margin: 0.3em;
-  padding: 0.6em;
   list-style-type: none;
+  color: #fff;
   text-align: center;
-}
-
-span {
-  display: inline;
 }
 
 nav {
   display: inline;
-  margin: 0.3em;
-  padding: 0.6em;
   list-style-type: none;
   text-align: center;
 }
 
-.nav a {
+.cards a {
+  color: #fff;
+  background-color: #713837;
+  text-decoration: none;
   display: inline;
+  margin: 0.3em;
+  padding: 0.5em;
   border-radius: 4px;
+}
+
+.cards a:hover {
+  text-decoration: none;
+  background-color: #f33;
 }
 
 body {
@@ -41,3 +43,5 @@ body {
   font-weight: normal;
   margin: 0;
 }
+
+/* display: inline-block */
